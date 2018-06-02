@@ -16,12 +16,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   function loadProfile(profile) {
     var person = new blockstack.Person(profile);
-    document.getElementById('teacherName').innerHTML = person.name() ? person.name() : "Teacher";    
-    /*
-        if (person.avatarUrl()) {
-          document.getElementById('avatar-image').setAttribute('src', person.avatarUrl())
-        }
-         */
+    document.getElementById('teacherName').innerHTML = person.name() ? person.name() : "Teacher";
+
+    if (person.avatarUrl()) {
+      document.getElementById('avatar-image').setAttribute('src', person.avatarUrl())
+    }
+
   }
 
   if (blockstack.isUserSignedIn()) {
