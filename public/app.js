@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-  document.getElementById('signin-button').addEventListener('click', function(event) {
+  document.getElementById('teacherButton').addEventListener('click', function(event) {
     event.preventDefault()
     blockstack.redirectToSignIn()
   })

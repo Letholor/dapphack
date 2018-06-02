@@ -1,16 +1,25 @@
 /* Globals */
 a,a:focus,a:hover{color:#704a1d;}
 html,body{height:100%;background-color:#d8edf3;}
-body{color:#704a1d;text-align:center;}
+
+body{
+    color:#704a1d;
+    text-align:center;
+    background-image: url(Images/apple.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+}
+
 .hide{display:none;}
 .landing-heading{font-family:'Raleway',monospace;font-weight:400;}
 
 /* Buttons */
-.btn{font-family:'Raleway',monospace;padding:0.5625rem 2.5rem;font-size:0.8125rem;font-weight:400;line-height:1.75rem;border-radius:0!important;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
-.btn-lg{font-size:0.875rem;padding:0.6875rem 3.4375rem;line-height:1.75rem;}
+.btn{font-family:'Raleway',monospace;padding:0.5625rem 2.5rem;font-size:0.8125rem;font-weight:400;line-height:0.1rem;border-radius:15px!important;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.btn-lg{font-size:0.875rem;padding:0.6875rem 3.4375rem;line-height:0.1rem;}
 .btn:focus,.btn:active:focus,.btn.active:focus{outline:none;}
-.btn-primary{background-color:#270F34;border:1px solid #270F34;}
-.btn-primary:hover,.btn-primary:focus,.btn-primary:active{color:#fff;border:1px solid #2C96FF;background-color:#2C96FF;}
+.btn-primary{color: #704a1d;background-color:#FFFFFF;border:0px solid #270F34;}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active{color:#704a1d;border:0px solid #2C96FF;background-color:#0db779;}
 
 /* Avatar */
 .avatar{width:100px;height:100px;}

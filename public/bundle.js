@@ -5420,7 +5420,11 @@ module.exports={
   "_args": [
     [
       "bigi@1.4.2",
+<<<<<<< HEAD
       "C:\\source\\dapphack\\gradebook"
+=======
+      "C:\\dapphack\\gradebook"
+>>>>>>> cedc046b6b16185a6d3876dbb323cdc832b6da5f
     ]
   ],
   "_from": "bigi@1.4.2",
@@ -5446,7 +5450,11 @@ module.exports={
   ],
   "_resolved": "https://registry.npmjs.org/bigi/-/bigi-1.4.2.tgz",
   "_spec": "1.4.2",
+<<<<<<< HEAD
   "_where": "C:\\source\\dapphack\\gradebook",
+=======
+  "_where": "C:\\dapphack\\gradebook",
+>>>>>>> cedc046b6b16185a6d3876dbb323cdc832b6da5f
   "bugs": {
     "url": "https://github.com/cryptocoinjs/bigi/issues"
   },
@@ -22190,7 +22198,11 @@ module.exports={
   "_args": [
     [
       "cheerio@0.22.0",
+<<<<<<< HEAD
       "C:\\source\\dapphack\\gradebook"
+=======
+      "C:\\dapphack\\gradebook"
+>>>>>>> cedc046b6b16185a6d3876dbb323cdc832b6da5f
     ]
   ],
   "_from": "cheerio@0.22.0",
@@ -22214,7 +22226,11 @@ module.exports={
   ],
   "_resolved": "https://registry.npmjs.org/cheerio/-/cheerio-0.22.0.tgz",
   "_spec": "0.22.0",
+<<<<<<< HEAD
   "_where": "C:\\source\\dapphack\\gradebook",
+=======
+  "_where": "C:\\dapphack\\gradebook",
+>>>>>>> cedc046b6b16185a6d3876dbb323cdc832b6da5f
   "author": {
     "name": "Matt Mueller",
     "email": "mattmuelle@gmail.com",
@@ -30676,7 +30692,11 @@ module.exports={
   "_args": [
     [
       "elliptic@6.4.0",
+<<<<<<< HEAD
       "C:\\source\\dapphack\\gradebook"
+=======
+      "C:\\dapphack\\gradebook"
+>>>>>>> cedc046b6b16185a6d3876dbb323cdc832b6da5f
     ]
   ],
   "_from": "elliptic@6.4.0",
@@ -30703,7 +30723,11 @@ module.exports={
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.0.tgz",
   "_spec": "6.4.0",
+<<<<<<< HEAD
   "_where": "C:\\source\\dapphack\\gradebook",
+=======
+  "_where": "C:\\dapphack\\gradebook",
+>>>>>>> cedc046b6b16185a6d3876dbb323cdc832b6da5f
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
@@ -44570,7 +44594,11 @@ module.exports={
   "_args": [
     [
       "elliptic@5.2.1",
+<<<<<<< HEAD
       "C:\\source\\dapphack\\gradebook"
+=======
+      "C:\\dapphack\\gradebook"
+>>>>>>> cedc046b6b16185a6d3876dbb323cdc832b6da5f
     ]
   ],
   "_from": "elliptic@5.2.1",
@@ -44594,7 +44622,11 @@ module.exports={
   ],
   "_resolved": "http://registry.npmjs.org/elliptic/-/elliptic-5.2.1.tgz",
   "_spec": "5.2.1",
+<<<<<<< HEAD
   "_where": "C:\\source\\dapphack\\gradebook",
+=======
+  "_where": "C:\\dapphack\\gradebook",
+>>>>>>> cedc046b6b16185a6d3876dbb323cdc832b6da5f
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
