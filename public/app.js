@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   })
   document.getElementById('signout-button').addEventListener('click', function(event) {
     event.preventDefault()
-    blockstack.signUserOut("localhost:5000")
+    blockstack.signUserOut("http://localhost:5000")
   })
 
   function showProfile(profile) {
@@ -19,11 +19,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
 
   if (blockstack.isUserSignedIn()) {
+    window.location = "http://localhost:5000/teacher.html" ;
     var profile = blockstack.loadUserData().profile
       showProfile(profile)
   } else if (blockstack.isSignInPending()) {
     blockstack.handlePendingSignIn().then(function(userData) {
-      window.location = "localhost:5000/teacher.html";
+      window.location = window.location.origin;
     })
   }
 })
