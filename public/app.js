@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   })
   document.getElementById('signout-button').addEventListener('click', function(event) {
     event.preventDefault()
-    blockstack.signUserOut(window.location.href)
+    blockstack.signUserOut("localhost:5000")
   })
 
   function showProfile(profile) {
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       showProfile(profile)
   } else if (blockstack.isSignInPending()) {
     blockstack.handlePendingSignIn().then(function(userData) {
-      window.location = window.location.origin
+      window.location = "localhost:5000/teacher.html";
     })
   }
 })
