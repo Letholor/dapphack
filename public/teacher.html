@@ -18,11 +18,14 @@
 <body>
     <div class="container">
         <div class="row">
+            <span id="teacherName" style="float:left;"></span>
             <a href="#" style="display: none;" id="signin-button">Login</a>
-            <a href="#" style="float:right;" id="signout-button">Logout</a>
+            <a href='http://localhost:5000' style="float:right;" id="signout-button">Logout</a>
         </div>
         <div class="row">
-            <div class="col-sm-2" style="text-align: right;"><span>Select Class</span></div>
+            <div class="col-sm-2" style="text-align: right;">
+                <span>Select Class</span>
+            </div>
             <div class="col-sm-4" style="text-align: left;">
                 <select>
                     <option value="2017-2018">2017-2018</option>
@@ -30,10 +33,27 @@
             </div>
         </div>
         <div class="row" style="margin-top: 50px;">
-            <div class="container"><div class="row"><a href="#" style="float:right;">Edit</a></div></div> 
+            <div class="container">
+                <div class="row">
+                    <span style="margin: 0px 5px;">
+                        <a href="#" style="float:right;">Edit</a>
+                    </span>
+                    <span style="margin: 0px 5px;"> 
+                        <a href="#" style="float:right;">Submit</a>
+                    </span>
+                </div>
+            </div>
             <table border="1" width="100%">
-                <tr><th>Last Name</th><th>First Name</th><th>Grade</th></tr>
-                <tr><td>Parker</td><td>Peter</td><td>A</td></tr>
+                <tr>
+                    <th>Last Name</th>
+                    <th>First Name</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td>Parker</td>
+                    <td>Peter</td>
+                    <td>A</td>
+                </tr>
             </table>
         </div>
     </div>
