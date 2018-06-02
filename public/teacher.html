@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Welcome to Gradebook</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="app.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="bundle.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <a href="#" style="display: none;" id="signin-button">Login</a>
+            <a href="#" style="float:right;" id="signout-button">Logout</a>
+        </div>
+        <div class="row">
+            <div class="col-sm-2" style="text-align: right;"><span>Select Class</span></div>
+            <div class="col-sm-4" style="text-align: left;">
+                <select>
+                    <option value="2017-2018">2017-2018</option>
+                </select>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <div class="container"><div class="row"><a href="#" style="float:right;">Edit</a></div></div> 
+            <table border="1" width="100%">
+                <tr><th>Last Name</th><th>First Name</th><th>Grade</th></tr>
+                <tr><td>Parker</td><td>Peter</td><td>A</td></tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
