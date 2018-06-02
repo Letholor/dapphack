@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   if (teacherButton) {
     teacherButton.addEventListener('click', function (event) {
       event.preventDefault();
-      blockstack.redirectToSignIn("http://localhost:5000/teacher.html");
+      blockstack.redirectToSignIn();
     })
   }
   var signoutButton = document.getElementById("signout-button");
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     loadProfile(profile);
   } else if (blockstack.isSignInPending()) {
     blockstack.handlePendingSignIn().then(function (userData) {
-      window.location = "http://localhost:5000";
+      window.location = "http://localhost:5000/teacher.html";
     });
   }
 });
